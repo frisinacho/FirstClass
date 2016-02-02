@@ -16,6 +16,8 @@ int main(int argc, const char * argv[]) {
         
         // Assigning values
         [anakin setFirstName:@"Anakin"];
+        [anakin setLastName:@"Skywalker"];
+        [anakin setAlias:@"Darth Vader"];
     }
     return 0;
 }
