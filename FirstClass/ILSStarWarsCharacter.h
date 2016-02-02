@@ -10,4 +10,9 @@
 
 @interface ILSStarWarsCharacter : NSObject
 
+@property NSString * firstName;
+@property NSString * lastName;
+@property NSString * alias;
+
+
 @end
