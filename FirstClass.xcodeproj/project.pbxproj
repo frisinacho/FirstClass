@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		660CC1011C60BD7800C35A01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CC1001C60BD7800C35A01 /* main.m */; };
+		660CC1091C60BF8B00C35A01 /* ILSStarWarsCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CC1081C60BF8B00C35A01 /* ILSStarWarsCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		660CC0FD1C60BD7800C35A01 /* FirstClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstClass; sourceTree = BUILT_PRODUCTS_DIR; };
 		660CC1001C60BD7800C35A01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660CC1071C60BF8B00C35A01 /* ILSStarWarsCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSStarWarsCharacter.h; sourceTree = "<group>"; };
+		660CC1081C60BF8B00C35A01 /* ILSStarWarsCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSStarWarsCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,18 @@
 			isa = PBXGroup;
 			children = (
 				660CC1001C60BD7800C35A01 /* main.m */,
+				660CC10A1C60BF9700C35A01 /* Models */,
 			);
 			path = FirstClass;
+			sourceTree = "<group>";
+		};
+		660CC10A1C60BF9700C35A01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				660CC1071C60BF8B00C35A01 /* ILSStarWarsCharacter.h */,
+				660CC1081C60BF8B00C35A01 /* ILSStarWarsCharacter.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				660CC1011C60BD7800C35A01 /* main.m in Sources */,
+				660CC1091C60BF8B00C35A01 /* ILSStarWarsCharacter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
