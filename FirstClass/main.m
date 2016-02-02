@@ -18,6 +18,9 @@ int main(int argc, const char * argv[]) {
         [anakin setFirstName:@"Anakin"];
         [anakin setLastName:@"Skywalker"];
         [anakin setAlias:@"Darth Vader"];
+        
+        // NSLog - Like printf()
+        NSLog(@"Mi nombre es %@ %@ y soy más conocido como %@", [anakin firstName], [anakin lastName], [anakin alias]);
     }
     return 0;
 }
