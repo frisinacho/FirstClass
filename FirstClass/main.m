@@ -11,7 +11,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
+        // Create our own Class instance
+        ILSStarWarsCharacter *anakin = [ILSStarWarsCharacter new];
     }
     return 0;
 }
