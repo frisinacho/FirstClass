@@ -13,6 +13,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // Create our own Class instance
         ILSStarWarsCharacter *anakin = [ILSStarWarsCharacter new];
+        
+        // Assigning values
+        [anakin setFirstName:@"Anakin"];
     }
     return 0;
 }
