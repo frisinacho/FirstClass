@@ -12,7 +12,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // Create our own Class instance
-        ILSStarWarsCharacter *anakin = [ILSStarWarsCharacter new];
+        ILSStarWarsCharacter *anakin = [[ILSStarWarsCharacter alloc] init];
         
         // Assigning values
         [anakin setFirstName:@"Anakin"];
