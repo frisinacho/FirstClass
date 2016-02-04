@@ -14,9 +14,7 @@
                lastName: (NSString *) lastName
                   alias: (NSString *) alias{
     
-    self = [super init];
-    
-    if (self != nil) {
+    if (self = [super init]) {
         self.firstName = firstName;
         self.lastName = lastName;
         self.alias = alias;
