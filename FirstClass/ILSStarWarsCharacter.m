@@ -10,4 +10,19 @@
 
 @implementation ILSStarWarsCharacter
 
+-(id) initWithFirstName: (NSString *) firstName
+               lastName: (NSString *) lastName
+                  alias: (NSString *) alias{
+    
+    self = [super init];
+    
+    if (self != nil) {
+        self.firstName = firstName;
+        self.lastName = lastName;
+        self.alias = alias;
+    }
+    
+    return self;
+}
+
 @end
