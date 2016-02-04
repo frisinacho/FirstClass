@@ -15,9 +15,9 @@
                   alias: (NSString *) alias{
     
     if (self = [super init]) {
-        [self setFirstName:firstName];
-        [self setLastName:lastName];
-        [self setAlias:alias];
+        _firstName = firstName;
+        _lastName = lastName;
+        _alias = alias;
     }
     
     return self;
