@@ -12,11 +12,11 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // Create our own Class instance
-        ILSStarWarsCharacter *anakin = [[ILSStarWarsCharacter alloc] initWithFirstName:@"Anakin"
-                                                                              lastName:@"Skywalker"
-                                                                                 alias:@"Darth Vader"];
+        ILSStarWarsCharacter *anakin = [ILSStarWarsCharacter starWarsCharacterWithFirstName:@"Anakin"
+                                                                                   lastName:@"Skywalker"
+                                                                                      alias:@"Darth Vader"];
         
-        ILSStarWarsCharacter *c3po = [[ILSStarWarsCharacter alloc] initWithAlias:@"C-3PO"];
+        ILSStarWarsCharacter *c3po = [ILSStarWarsCharacter starWarsCharacterWithAlias:@"C-3PO"];
         
         // NSLog - Like printf()
         NSLog(@"Mi nombre es %@ %@ y soy más conocido como %@", [anakin firstName], [anakin lastName], [anakin alias]);
