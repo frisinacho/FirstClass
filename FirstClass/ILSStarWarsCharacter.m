@@ -10,6 +10,22 @@
 
 @implementation ILSStarWarsCharacter
 
++(id) starWarsCharacterWithFirstName: (NSString *) firstName
+                            lastName: (NSString *) lastName
+                               alias: (NSString *) alias{
+    
+    return [[self alloc] initWithFirstName:firstName
+                                  lastName:lastName
+                                     alias:alias];
+    
+}
+
++(id) starWarsCharacterWithAlias: (NSString *) alias{
+    
+    return [[self alloc] initWithAlias:alias];
+    
+}
+
 -(id) initWithFirstName: (NSString *) firstName
                lastName: (NSString *) lastName
                   alias: (NSString *) alias{
