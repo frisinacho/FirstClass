@@ -18,4 +18,6 @@
                lastName: (NSString *) lastName
                   alias: (NSString *) alias;
 
+-(id) initWithAlias: (NSString *) alias;
+
 @end
