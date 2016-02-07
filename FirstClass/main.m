@@ -12,12 +12,9 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // Create our own Class instance
-        ILSStarWarsCharacter *anakin = [[ILSStarWarsCharacter alloc] init];
-        
-        // Assigning values
-        [anakin setFirstName:@"Anakin"];
-        [anakin setLastName:@"Skywalker"];
-        [anakin setAlias:@"Darth Vader"];
+        ILSStarWarsCharacter *anakin = [[ILSStarWarsCharacter alloc] initWithFirstName:@"Anakin"
+                                                                              lastName:@"Skywalker"
+                                                                                 alias:@"Darth Vader"];
         
         // NSLog - Like printf()
         NSLog(@"Mi nombre es %@ %@ y soy más conocido como %@", [anakin firstName], [anakin lastName], [anakin alias]);
