@@ -48,7 +48,7 @@
 
 -(NSString *) description{
     
-    return [NSString stringWithFormat:@"<ILSStarWarsCharacter: %@ %@ %@>", [self firstName], [self lastName],[self alias]];
+    return [NSString stringWithFormat:@"<%@: %@ %@ %@>", [self class], [self firstName], [self lastName],[self alias]];
 }
 
 @end
