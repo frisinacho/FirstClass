@@ -46,4 +46,9 @@
                              alias:alias];
 }
 
+-(NSString *) description{
+    
+    return [NSString stringWithFormat:@"<ILSStarWarsCharacter: %@ %@ %@>", [self firstName], [self lastName],[self alias]];
+}
+
 @end
