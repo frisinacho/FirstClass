@@ -16,11 +16,8 @@ int main(int argc, const char * argv[]) {
                                                                                    lastName:@"Skywalker"
                                                                                       alias:@"Darth Vader"];
         
-        ILSStarWarsCharacter *c3po = [ILSStarWarsCharacter starWarsCharacterWithAlias:@"C-3PO"];
-        
         // NSLog - Like printf()
-        NSLog(@"Mi nombre es %@ %@ y soy más conocido como %@", [anakin firstName], [anakin lastName], [anakin alias]);
-        NSLog(@"Soy %@ y soy un androide de protocolo", [c3po alias]);
+        NSLog(@"%@", anakin);
     }
     return 0;
 }
